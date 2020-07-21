@@ -1,0 +1,32 @@
+/*Default styles*/
+html, body{
+    scroll-behavior: smooth;
+}
+
+.container{
+    text-align: center;
+}
+
+.head-button{
+    display: inline-block;
+}
+
+/*custom styles*/
+.hero-content{
+    padding: 22.5%;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.hero-content:hover{
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.contact-me{
+    padding-top: 5%;
+}
+
+
+

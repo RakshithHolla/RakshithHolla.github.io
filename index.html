@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakshith Holla | Web Development Enthusiast</title>
+    <link rel="icon" href="assets/rakshithlogo.png">
+    <!--milligram framework cdn links-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.0/milligram.css">
+    <!--custom css link-->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <div class="container">
+        <!--header section-->
+        <header>
+            <a class="head-link button button-clear" href="#Home">Home</a>
+            <a class="head-link button button-clear" href="#About">About</a>
+            <a class="head-link button button-clear" href="#Contact">Contact</a>
+        </header>
+
+        <!--hero section-->
+        <div class="hero-banner" id="Home">
+            <h1 class="hero-content"><em>HELLO,<br>I'M</em> RAKSHITH HOLLA</h1>
+        </div>
+
+        <!--about section-->
+        <div class="about-section" id="About">
+            <h3>About</h3>
+            <p class="about-education-para">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos placeat accusamus quasi voluptatem minima porro deleniti, perferendis in mollitia adipisci sit eius a inventore dicta, velit quam beatae dolorem architecto facere cumque possimus, assumenda ut non. Aliquid praesentium id voluptatem quia aspernatur possimus, architecto ut sint ab, quod a molestias perferendis, minima magnam consequatur repellat obcaecati beatae dignissimos placeat earum molestiae mollitia iure odit provident! Assumenda sit recusandae libero facere veniam quod iste neque tenetur quidem odio sint architecto accusamus asperiores vero omnis fugit nobis necessitatibus error quia, exercitationem veritatis blanditiis cupiditate. Natus, quis inventore? Iusto molestias quo soluta?
+            </p>
+            <p class="about-workandexperience-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos placeat accusamus quasi voluptatem minima porro deleniti, perferendis in mollitia adipisci sit eius a inventore dicta, velit quam beatae dolorem architecto facere cumque possimus, assumenda ut non. Aliquid praesentium id voluptatem quia aspernatur possimus, architecto ut sint ab, quod a molestias perferendis, minima magnam consequatur repellat obcaecati beatae dignissimos placeat earum molestiae mollitia iure odit provident! Assumenda sit recusandae libero facere veniam quod iste neque tenetur quidem odio sint architecto accusamus asperiores vero omnis fugit nobis necessitatibus error quia, exercitationem veritatis blanditiis cupiditate. Natus, quis inventore? Iusto molestias quo soluta?
+             </p>
+        </div>
+
+        <!--contact section-->
+        <div class="contact-me" id="Contact">
+            <h3 class="contact-me-head">Contact me</h3>
+            <p class="contact-me-para">
+               I'd love to hear from you&#128516;.
+            </p>
+
+            <!--using formspree instead of creating own mail server-->
+            <!--helps in hosting in github as github pages allows only static pages-->
+            <form action="https://formspree.io/mrgyrglq" method="POST">
+                <fieldset>
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Dragon Warrior" id="nameField">
+
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="dragon.warrior@kungfupanda.com" id="emailField" required>
+                    
+                    <label for="comments">Comments</label>
+                    <textarea placeholder="You will be the next dragon warrior...&#128540;" id="commentField" required></textarea>
+                    <input class="button-primary" type="submit" value="Send" onsubmit="alert('comments submitted successfully :)')">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
